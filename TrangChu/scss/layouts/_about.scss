@@ -1,0 +1,29 @@
+#about{
+    
+    z-index: 1;
+    padding: 0 1.5rem;
+    margin-top: -100px;
+
+    .about__left{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        p{
+            color: $color-tim;
+            font-size: 20px;
+            font-weight: 600;
+        }
+        h1{
+            font-size: 60px;
+            font-weight: 700;
+        }
+    }
+
+    .about__right{
+        img{
+            width: 100%;
+        }
+    }
+
+}

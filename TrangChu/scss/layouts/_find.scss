@@ -1,0 +1,112 @@
+#find {
+    background-image: url('./../../img/accent_bottom_wave_01.png');
+    background-position: center;
+    background-size: cover;
+    
+    padding: 40px;
+    .imgtop{
+        img{
+            width: 100%;
+        }
+    }
+    .introduct{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .intro{
+            box-shadow: 0 30px 30px -10px #5a525278;
+            padding: 20px;
+            border-radius: 10px;
+            h1{
+                font-size: 43px;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+            .input1{
+                display: flex;
+                margin-bottom: 10px;
+                .border-1{
+                    border: 1px solid rgba(128, 128, 128, 0.363);
+                    border-radius: 35px;
+                    margin-right: 10px;
+                    padding: 5px 10px 5px 5px;
+                }
+            }
+            i{
+                margin-right: 5px;
+                margin-left: 5px;
+                color: $color-tim;
+            }
+            .input1-1 {
+                width: 125px;
+                outline: none;
+                border: none;
+            }
+        
+            .input2{
+                border: 1px solid rgba(128, 128, 128, 0.363);
+                border-radius: 35px;
+                margin-right: 10px;
+                padding: 5px 10px 5px 5px;
+                width: 343px;
+                margin-bottom: 10px;
+        
+                #cars{
+                    border: none;
+                    outline: none;
+                    width: 289px;
+                    color: gray;
+                }
+            }
+            
+            .input3{
+                border: 1px solid rgba(128, 128, 128, 0.363);
+                border-radius: 35px;
+                margin-right: 10px;
+                padding: 5px 10px 5px 5px;
+                width: 343px;
+                display: flex;
+                margin-bottom: 10px;
+
+                i{
+                    line-height: 34px;
+                }
+                #input-3{
+                    border: none;
+                    outline: none;
+                    width: 89%;
+                }
+            }
+
+            .button4{
+                // border: none;
+                // // background-color: $color-tim;
+                // color: white;
+                border-radius: 60px;
+                padding: 20px 50px;
+                font-weight: 600;
+                margin: 40px 0 50px 0;
+                line-height: 10px;
+                border: none;
+                box-shadow: 0 0 0 3em $color-tim inset;
+                transition: 0.3s all;
+                color: $color-white;
+                outline: none;
+                &:hover
+                    {
+                        box-shadow: 0 0 0 1px $color-tim inset;
+                        color: $color-tim;
+                        background-color: $color-white;
+                    }    
+            }
+        }
+    }
+    
+    
+}
+// @media only screen and (max-width: 768px) {
+//     #find {
+//         display: flex;
+//         flex-direction: column;
+//     }
+//   }

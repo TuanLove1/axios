@@ -1,0 +1,96 @@
+footer {
+    color: $color-white;
+    background-image: url('./../../img/footer_background.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+
+    .contactus {
+        h3 {
+            font-weight: 700;
+            margin-bottom: 30px;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-bottom: 15px;
+
+                i {
+                    margin-right: 10px;
+                }
+
+                .icon {
+                    transition: 0.3s all;
+
+                    &:hover {
+                        color: black;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .QuickLinks {
+        li {
+            cursor: pointer;
+            padding-bottom: 6px;
+            border-bottom: 1px solid rgba(0, 0, 0, .1);
+            transition: 0.3s all;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+
+    }
+
+    .Newsletter {
+        h3 {
+            margin-bottom: 50px;
+        }
+
+        ul {
+            .yourname {
+                border-radius: 25px;
+                border: 1px solid rgba(255, 255, 255, .1);
+                padding: 10px 15px;
+                text-align: center;
+                background: transparent;
+                outline: none;
+                transition: 0.5s all;
+                color: $color-white !important;
+
+                &:focus {
+                    border: 1px solid $color-white;
+                }
+
+                &::placeholder {
+                    color: $color-white;
+                }
+            }
+
+            button {
+                border: none;
+                border-radius: 50px;
+                padding: 10px 65px;
+                transition: 0.5s all;
+                background-color: $color-white;
+                color: black;
+                font-weight: 600;
+                box-shadow: 0 0 0 3em $color-white inset;
+
+                &:hover {
+                    box-shadow: 0 0 0 1px #fff inset;
+                    color: $color-white;
+                    border: 1px solid white;
+                    /* background-color: white; */
+                    background-color: $color-tim;
+                }
+            }
+        }
+
+    }
+
+}
